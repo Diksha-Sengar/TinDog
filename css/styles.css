@@ -1,0 +1,186 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar{
+  font-size: 22px;
+  margin-bottom: 7%;
+  margin-right: 5%;
+  padding: 12px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+  margin-right: 15%;
+}
+
+/* Title Area */
+.col-lg-6{
+  padding-left: 0;
+}
+.btn-title{
+  width: auto;
+  margin: 10% 1%;
+}
+.phoneimage {
+  transform: rotate(20deg);
+  width: 19%;
+  margin-left: 10%;
+  position: absolute;
+}
+.Website-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+#title{
+  background-color: #ff4c68;
+  height: 80%;;
+  color: white;
+}
+#bootstrap-overrides.container-fluid{
+  padding: 3% 15%;
+}
+
+
+/* Feature Selection */
+.fas{
+  color: #ef8172;
+  font-size: 4rem;
+  margin: 12% 4% 3% 4%;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.feature-container{
+  padding: 6% 15% 6% 15%;
+}
+.feature-h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.feature-para{
+  width: 75%;
+  margin: auto;
+  color: #8f8f8f;
+}
+.feature-section{
+  background-color: white;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Testimonial Section */
+#testimonials{
+  background-color: #ff4c68;
+  padding: 4%;
+  text-align: center;
+}
+.testimonial-h2{
+  margin: auto 20%;
+  color: white;
+  font-weight: bolder;
+  font-size: 250%;
+  line-height: 1.5;
+}
+.testimonial-image{
+  margin: 2% auto 5% auto;
+  border-radius: 100%;
+  width: 8%;
+}
+.testimonial-image-text{
+  color: white;
+  margin-left: 1%;
+  font-size: 1.2rem;
+}
+
+/* Press Image */
+.press-image{
+  width: 15%;
+  margin: 2% 1.5% 0 1.5%;
+}
+
+/* Pricing Section */
+.section-pricing{
+  margin: 7% 7%;
+}
+.pricing-heading{
+  font-weight: bolder;
+  font-size: 300%;
+  margin-bottom: 1.5%;
+}
+.pricing-card-container{
+  margin-top: 5%;
+}
+.each-card-heading{
+  font-weight: bolder;
+}
+.each-card-subheading{
+  font-size: 300%;
+  font-weight: bolder;
+  margin-bottom: 5%;
+}
+.card-body{
+  padding: 5%;
+}
+.each-card-para{
+  color: #8f8f8f;
+}
+.btn-pricing-card{
+  width: 100%;
+  margin:2% auto;
+}
+
+/* CallToActionSection */
+.CallToActionSection{
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+.CTAtext{
+  font-size: 360%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#btn-cta{
+  margin: 5% 2%;
+  font-size: 1.5rem;
+}
+
+/* CopyrightSection */
+.cpyrgtIcon{
+  margin: 20px 7px;
+  font-size: 1.5rem;
+}
+.CopyrightSection{
+  padding: 8%;
+  text-align: center;
+}
+.CopyrightSetionPara{
+  color: grey;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+}
+
+/* Media Query Breakpoints */
+@media (max-width:1028px) and (min-width:992px){
+  .phoneimage{
+    position: static;
+    width: 70%;
+  }
+}
+@media (max-width:991px){
+  .phoneimage{
+    position: static;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+}
